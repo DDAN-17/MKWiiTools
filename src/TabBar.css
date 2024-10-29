@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    min-height: 64px;
+}
+
+ul li {
+    margin: 5px;
+    float: left;
+    font-family: sans-serif;
+}
+
+img.close {
+    position: relative;
+    top: 4px;
+    border: white solid 1px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+img.close:hover {
+    background: #888888;
+}
+
+img.ico {
+    position: relative;
+    top: 3px;
+}
+
+ul li span a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+ul li span a div {
+    display: inline;
+    color: white;
+    text-align: center;
+    user-select: none;
+    font-size: 24px;
+    margin-left: 4px;
+}
+
+ul li span a:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
